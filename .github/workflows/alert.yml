@@ -2,8 +2,7 @@ name: Base Launch Alert
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "*/5 * * * *"
+  
 
 jobs:
   monitor:
